@@ -6,13 +6,9 @@ function Navbar() {
         <h1 className="text-cyan-500 font-bold text-xl">Studio Siqueira's</h1>
         </div>
       <div className="flex items-center gap-8">
-        <a href="#" className="text-gray-600 text-sm hover:text-cyan-500 transition-colors">Início</a>
-        <a href="#" className="text-gray-600 text-sm hover:text-cyan-500 transition-colors">Serviços</a>
-        <a href="#" className="text-gray-600 text-sm hover:text-cyan-500 transition-colors">Nossa Equipe</a>
-        <a href="#" className="text-gray-600 text-sm hover:text-cyan-500 transition-colors">Contato</a>
-        <button className="bg-cyan-500 text-white text-sm font-semibold px-5 py-2 rounded-xl hover:bg-cyan-600 transition-colors">
-          Agendar Horário
-        </button>
+        <a href="#" className="text-cyan-600 text-sm hover:text-cyan-500 transition-colors">Início</a>
+        <a href="#servicos" className="text-gray-600 text-sm hover:text-cyan-500 transition-colors">Serviços</a>
+        <a href="#equipe" className="text-gray-600 text-sm hover:text-cyan-500 transition-colors">Nossa Equipe</a>
       </div>
     </nav>
   )
