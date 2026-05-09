@@ -5,6 +5,8 @@ import Dashboard from './pages/Dashboard'
 import Maquiagem from './pages/Maquiagem'
 import Cabelo from './pages/Cabelo'
 import EsteticaFacial from './pages/EsteticaFacial'
+import ServicesPage from './pages/ServicesPage';
+import Agendamento from "./pages/Agendamento";
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
       <Route path="/maquiagem" element={<Maquiagem/>} />
       <Route path="/cabelo" element={<Cabelo />} />
       <Route path="/estetica-facial" element={<EsteticaFacial />} />
+      <Route path="/servicos" element={<ServicesPage />} />
+      <Route path="/agendamento/:id" element={<Agendamento />} />
+      
     </Routes>
   )
 }
