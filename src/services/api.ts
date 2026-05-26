@@ -7,7 +7,7 @@ export const setLogoutCallback = (callback: () => void) => {
 }
 
 const api = axios.create({
-  baseURL: 'https://projeto-hudosn.onrender.com',
+  baseURL: 'https://api-agenda-jg4n.onrender.com',
 })
 
 api.interceptors.request.use((config) => {
